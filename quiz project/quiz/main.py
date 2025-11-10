@@ -1,14 +1,42 @@
 import json
 import os
+import sys 
 from datetime import datetime
-from quiz_saintek import SOAL  # ambil data soal langsung
+
+# ==========================================================
+# === PENTING: PENGATURAN PATH UNTUK IMPOR MODULAR ===
+# ==========================================================
+# Solusi Paling Andal: Menavigasi 2 level ke atas untuk menemukan folder 'leaderboard'
+try:
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    # Navigasi ke atas 2 level untuk mencapai folder root EduQuiz (root/quiz project/quiz -> root)
+    root_dir = os.path.dirname(os.path.dirname(current_dir)) 
+    
+    if root_dir not in sys.path:
+        sys.path.append(root_dir)
+        
+except Exception as e:
+    # Ini akan mencegah kegagalan total, tetapi fokus pada impor di bawah.
+    print(f"DEBUG: Error setting sys.path: {e}")
+    
+# ==========================================================
+# === IMPOR MODUL DAN FUNGSI ===
+# ==========================================================
+
+from quiz_saintek import SOAL
+
+# === IMPOR LEADERBOARD TANPA TRY/EXCEPT ===
+# Jika ini gagal, Python akan menampilkan error yang sebenarnya (ModuleNotFoundError)
+from leaderboard import simpan_skor, tampilkan_leaderboard
+# =========================================
+
 
 # ==========================================================
 # ======== SISTEM UTAMA: LOGIN, QUIZ, HISTORY ==============
 # ==========================================================
 
 # ----------------------
-# FUNGSI JSON
+# FUNGSI JSON (Tidak ada perubahan)
 # ----------------------
 def load_json(filename):
     if not os.path.exists(filename):
@@ -21,7 +49,7 @@ def save_json(filename, data):
         json.dump(data, f, indent=4)
 
 # ----------------------
-# SISTEM LOGIN / REGISTER
+# SISTEM LOGIN / REGISTER (Tidak ada perubahan)
 # ----------------------
 def load_users():
     try:
@@ -60,7 +88,7 @@ def login():
     return None
 
 # ==========================================================
-# =============== SISTEM HISTORY TERINTEGRASI ==============
+# =============== SISTEM HISTORY TERINTEGRASI (Tidak ada perubahan) ==============
 # ==========================================================
 
 class HistorySystem:
@@ -68,11 +96,9 @@ class HistorySystem:
         self.current_user = current_user
         self.history_file = "data/history.json"
 
-        # pastikan folder data ada
         os.makedirs("data", exist_ok=True)
 
     def add_history(self, activity, details=""):
-        """Menambahkan aktivitas baru ke history.json"""
         if not self.current_user:
             return
         history_data = load_json(self.history_file)
@@ -86,7 +112,6 @@ class HistorySystem:
         save_json(self.history_file, history_data)
 
     def show_user_history(self):
-        """Menampilkan riwayat aktivitas user saat ini"""
         os.system("cls" if os.name == "nt" else "clear")
         print("\n" + "=" * 50)
         print(f"           HISTORY - {self.current_user['username'].upper()}")
@@ -107,11 +132,11 @@ class HistorySystem:
         for i, entry in enumerate(user_history[:10], 1):
             print(f"{i}. [{entry['timestamp']}] {entry['activity']}")
             if entry["details"]:
-                print(f"   {entry['details']}")
+                print(f"  {entry['details']}")
         input("\nTekan Enter untuk kembali ke menu...")
 
 # ==========================================================
-# =================== SISTEM QUIZ SAINTEK ==================
+# =================== SISTEM QUIZ SAINTEK (Diubah untuk Leaderboard) ==================
 # ==========================================================
 
 def jalankan_quiz(mapel, user, history_system):
@@ -138,6 +163,11 @@ def jalankan_quiz(mapel, user, history_system):
     print(f"Skor kamu: {skor}/{total}")
     print(f"Persentase: {persentase:.1f}%")
 
+    # === TAMBAHAN INTEGRASI LEADERBOARD ===
+    skor_leaderboard = skor * 10 
+    simpan_skor(user['username'], skor_leaderboard)
+    # ======================================
+
     # Simpan ke history
     history_system.add_history(
         f"Menyelesaikan Quiz {mapel}",
@@ -147,7 +177,7 @@ def jalankan_quiz(mapel, user, history_system):
     input("\nTekan Enter untuk kembali ke menu utama...")
 
 # ==========================================================
-# ====================== MENU UTAMA ========================
+# ====================== MENU UTAMA (Diubah untuk Leaderboard) ========================
 # ==========================================================
 
 def menu_utama(user):
@@ -158,7 +188,8 @@ def menu_utama(user):
         print(f"=== MENU UTAMA (User: {user['username']}) ===")
         print("1. Quiz Saintek TKA")
         print("2. Lihat History")
-        print("0. Logout")
+        print("3. Lihat Leaderboard")
+        print("4. Logout")
 
         pilihan = input("Pilih menu: ")
 
@@ -181,15 +212,20 @@ def menu_utama(user):
 
         elif pilihan == "2":
             history_system.show_user_history()
-        elif pilihan == "0":
+            
+        elif pilihan == "3":  # HANDLE OPSI LEADERBOARD
+            tampilkan_leaderboard()
+            
+        elif pilihan == "4": 
             print("👋 Logout berhasil.")
             break
+            
         else:
             print("⚠️ Pilihan tidak valid.")
             input("Tekan Enter untuk lanjut...")
 
 # ==========================================================
-# ======================== MAIN ============================
+# ======================== MAIN (Tidak diubah) ============================
 # ==========================================================
 
 def main():
