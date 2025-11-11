@@ -23,7 +23,7 @@ except Exception as e:
 # === IMPOR MODUL DAN FUNGSI ===
 # ==========================================================
 
-from quiz_saintek import SOAL
+from quiz_saintek import load_soal
 
 # === IMPOR LEADERBOARD TANPA TRY/EXCEPT ===
 # Jika ini gagal, Python akan menampilkan error yang sebenarnya (ModuleNotFoundError)
@@ -143,7 +143,7 @@ def jalankan_quiz(mapel, user, history_system):
     os.system("cls" if os.name == "nt" else "clear")
     print(f"=== QUIZ {mapel.upper()} ===")
 
-    soal_list = SOAL[mapel]
+    soal_list = load_soal(mapel)
     skor = 0
 
     for i, s in enumerate(soal_list, start=1):
@@ -189,13 +189,17 @@ def menu_utama(user):
         print("1. Quiz Saintek TKA")
         print("2. Lihat History")
         print("3. Lihat Leaderboard")
-        print("4. Logout")
+        print("4. Chat dengan Quizzy (Chatbot)")
+        print("5. Logout")
 
         pilihan = input("Pilih menu: ")
 
         if pilihan == "1":
             print("\n=== PILIH MATA PELAJARAN ===")
-            for i, mapel in enumerate(SOAL.keys(), start=1):
+            # Ambil daftar mapel dari file soal_saintek.json
+            soal_data = load_json("data/soal_saintek.json")
+            mapel_list = list(soal_data.keys()) if isinstance(soal_data, dict) else []
+            for i, mapel in enumerate(mapel_list, start=1):
                 print(f"{i}. {mapel}")
             print("0. Kembali")
             pilih = input("Pilih: ").strip()
@@ -203,7 +207,11 @@ def menu_utama(user):
             if pilih == "0":
                 continue
 
-            mapel_list = list(SOAL.keys())
+            # mapel_list sudah dibuat di atas dari file JSON
+            # jika belum ada, buat ulang untuk keselamatan
+            if 'mapel_list' not in locals():
+                soal_data = load_json("data/soal_saintek.json")
+                mapel_list = list(soal_data.keys()) if isinstance(soal_data, dict) else []
             if pilih.isdigit() and 1 <= int(pilih) <= len(mapel_list):
                 jalankan_quiz(mapel_list[int(pilih)-1], user, history_system)
             else:
@@ -216,7 +224,27 @@ def menu_utama(user):
         elif pilihan == "3":  # HANDLE OPSI LEADERBOARD
             tampilkan_leaderboard()
             
-        elif pilihan == "4": 
+        elif pilihan == "4":
+            # Jalankan Quizzy chatbot secara lazy-import agar tidak memaksa deps saat startup
+            try:
+                import quizzy
+            except Exception as e:
+                print("❌ Tidak dapat memuat Quizzy (chatbot). Pastikan dependensi terinstal dan API_KEY diatur.")
+                print(f"Detail: {e}")
+                input("Tekan Enter untuk kembali ke menu...")
+                continue
+
+            # Panggil chatbot; Quizzy menangani loop dan exit sendiri
+            try:
+                quizzy.run_chatbot()
+            except Exception as e:
+                print("❌ Terjadi error saat menjalankan Quizzy:", e)
+                input("Tekan Enter untuk kembali ke menu...")
+            else:
+                # Simpan aktivitas chat ke history
+                history_system.add_history("Chat dengan Quizzy", "Mengobrol dengan chatbot Quizzy")
+
+        elif pilihan == "5": 
             print("👋 Logout berhasil.")
             break
             
