@@ -2,6 +2,11 @@ import json, os, time
 from datetime import datetime
 from colorama import Fore, Style, init
 from quiz_saintek import jalankan_quiz
+from chat_bot.chatbot_quizzy import run_chatbot
+from dotenv import load_dotenv
+
+load_dotenv()
+print("🔑 API_KEY:", os.getenv("API_KEY"))
 
 init(autoreset=True)
 
@@ -106,31 +111,30 @@ def show_history(username):
 # ---------------- MENU UTAMA ----------------
 def menu_utama(username):
     while True:
-        clear()
-        print(Fore.CYAN + "=" * 50)
-        print(Fore.YELLOW + f"MENU UTAMA - USER: {username}".center(50))
-        print(Fore.CYAN + "=" * 50)
-        print(Fore.GREEN + "1. Quiz Saintek")
+        os.system("cls" if os.name == "nt" else "clear")
+        print(f"=== MENU UTAMA (User: {username}) ===")
+        print("1. Quiz Saintek")
         print("2. History")
+        print("3. Chatbot AI")
         print("0. Logout")
-        print(Fore.CYAN + "-" * 50)
-        pilihan = input(Fore.WHITE + "Pilih menu: ")
+        pilihan = input("Pilih menu: ")
 
         if pilihan == "1":
+            # Jalankan quiz
             try:
                 with open("data/soal_saintek.json", "r", encoding="utf-8") as f:
                     semua_soal = json.load(f)
                     mapel_list = list(semua_soal.keys())
             except FileNotFoundError:
-                print(Fore.RED + "❌ File soal_saintek.json tidak ditemukan!")
+                print("❌ File soal_saintek.json tidak ditemukan!")
                 input("Tekan Enter untuk lanjut...")
                 continue
 
-            print_banner("📚 PILIH MATA PELAJARAN 📚")
+            print("\n=== PILIH MAPEL ===")
             for i, m in enumerate(mapel_list, 1):
-                print(Fore.YELLOW + f"{i}. {m}")
-            print(Fore.RED + "0. Kembali")
-            pilih = input("\nPilih: ").strip()
+                print(f"{i}. {m}")
+            print("0. Kembali")
+            pilih = input("Pilih: ").strip()
 
             if pilih == "0":
                 continue
@@ -138,12 +142,22 @@ def menu_utama(username):
                 mapel = mapel_list[int(pilih)-1]
                 jalankan_quiz(mapel, username, lambda a,d: add_history(username,a,d))
             else:
-                print(Fore.RED + "Pilihan tidak valid.")
+                print("Pilihan tidak valid.")
                 input("Tekan Enter untuk lanjut...")
+
         elif pilihan == "2":
             show_history(username)
+
+        elif pilihan == "3":
+            run_chatbot(username)  # 💬 Jalankan chatbot Quizzy
+
         elif pilihan == "0":
+            print("👋 Logout berhasil.")
             break
+
+        else:
+            print("Pilihan tidak valid.")
+            input("Tekan Enter untuk lanjut...")
 
 # ---------------- MAIN PROGRAM ----------------
 def main():

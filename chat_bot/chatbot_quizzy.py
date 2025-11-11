@@ -17,7 +17,7 @@ def clean_text (text):
     text = re.sub(r'\n{2,}', '\n\n', text)
     return text.strip()
 
-def run_chatbot():
+def run_chatbot(username=None):
     genai.configure(api_key=API_KEY)
     
     model = genai.GenerativeModel("gemini-2.5-flash")
