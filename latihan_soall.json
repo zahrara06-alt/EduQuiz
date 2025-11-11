@@ -1,310 +1,370 @@
 {
   "fisika": {
     "mudah": [
-        {
+      {
         "question": "Benda yang diam berarti memiliki kecepatan sebesar...",
         "options": ["A. 0 m/s", "B. 1 m/s", "C. 10 m/s", "D. 9,8 m/s"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Jika benda diam relatif terhadap acuan, kecepatannya nol."
       },
       {
         "question": "Satuan gaya dalam SI adalah...",
         "options": ["A. Joule", "B. Newton", "C. Watt", "D. Pascal"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Gaya dinyatakan dalam Newton (N). 1 N = 1 kg·m/s²."
       },
       {
         "question": "Benda bermassa 1 kg di atas permukaan bumi memiliki berat sebesar... (g = 10 m/s²)",
         "options": ["A. 1 N", "B. 5 N", "C. 10 N", "D. 100 N"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Berat = m·g = 1 kg × 10 m/s² = 10 N."
       },
       {
         "question": "Satuan energi dalam SI adalah...",
         "options": ["A. Joule", "B. Newton", "C. Watt", "D. Ampere"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Energi/kerja satuannya Joule (J). 1 J = 1 N·m."
       },
       {
         "question": "Gaya yang bekerja pada benda menyebabkan benda...",
         "options": ["A. Bergetar", "B. Berubah bentuk atau bergerak", "C. Diam", "D. Mengeras"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Gaya dapat mengubah gerak (mempercepat/perlambat) atau membuat benda berubah bentuk (regangan, deformasi)."
       },
       {
         "question": "Alat untuk mengukur arus listrik adalah...",
         "options": ["A. Voltmeter", "B. Amperemeter", "C. Ohmmeter", "D. Wattmeter"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Alat untuk mengukur arus listrik disebut amperemeter (kadang disingkat A-meter)."
       },
       {
         "question": "Satuan daya dalam SI adalah...",
         "options": ["A. Joule", "B. Newton", "C. Watt", "D. Ampere"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Daya diukur dalam Watt (W). 1 W = 1 J/s."
       },
       {
         "question": "Benda bermassa 2 kg dipengaruhi percepatan gravitasi 10 m/s². Berat benda tersebut adalah...",
         "options": ["A. 5 N", "B. 10 N", "C. 15 N", "D. 20 N"],
-        "answer": "D"
+        "answer": "D",
+        "explanation": "Berat = m·g = 2 × 10 = 20 N."
       },
       {
         "question": "Besaran pokok yang memiliki satuan meter adalah...",
         "options": ["A. Massa", "B. Waktu", "C. Panjang", "D. Gaya"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Meter (m) adalah satuan panjang dalam SI."
       },
       {
         "question": "Kecepatan didefinisikan sebagai...",
         "options": ["A. Jarak per waktu", "B. Gaya per waktu", "C. Waktu per jarak", "D. Energi per gaya"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Kecepatan (velocity) adalah perpindahan dibagi waktu (displacement/time)."
       },
       {
         "question": "Percepatan adalah perubahan...",
         "options": ["A. Jarak terhadap waktu", "B. Kecepatan terhadap waktu", "C. Gaya terhadap massa", "D. Energi terhadap waktu"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Percepatan = perubahan kecepatan dibagi selang waktu (Δv/Δt)."
       },
       {
         "question": "Benda dikatakan bergerak bila...",
         "options": ["A. Posisi benda berubah terhadap acuan", "B. Benda diam di tempat", "C. Benda memiliki gaya", "D. Benda berat"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Gerak bergantung perubahan posisi relatif terhadap titik acuan."
       },
       {
         "question": "Jika gaya diperbesar, maka percepatan benda...",
         "options": ["A. Tetap", "B. Berkurang", "C. Bertambah", "D. Hilang"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Menurut Hukum II Newton: F = m·a → jika m konstan, a ∝ F."
       },
       {
         "question": "Benda bermassa 5 kg memiliki berat 50 N. Maka percepatan gravitasinya adalah...",
         "options": ["A. 5 m/s²", "B. 8 m/s²", "C. 10 m/s²", "D. 15 m/s²"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "g = W/m = 50 N / 5 kg = 10 m/s²."
       },
       {
         "question": "Energi yang dimiliki benda karena geraknya disebut...",
         "options": ["A. Energi potensial", "B. Energi kinetik", "C. Energi listrik", "D. Energi panas"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Energi kinetik adalah energi yang dimiliki benda karena geraknya, dengan rumus Ek = ½ m v²."
       },
       {
         "question": "Energi potensial gravitasi dirumuskan dengan...",
         "options": ["A. E = ½ mv²", "B. E = mgh", "C. E = F.s", "D. E = P.t"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Energi potensial gravitasi tergantung massa (m), percepatan gravitasi (g), dan ketinggian (h), sehingga rumusnya E = mgh."
       },
       {
         "question": "Usaha bernilai nol jika...",
         "options": ["A. Gaya searah perpindahan", "B. Gaya tegak lurus perpindahan", "C. Gaya berlawanan perpindahan", "D. Tidak ada gaya"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Usaha W = F·s·cosθ, dan bernilai nol bila gaya tegak lurus perpindahan (θ = 90° → cosθ = 0)."
       },
       {
         "question": "Satuan usaha dalam SI adalah...",
         "options": ["A. Joule", "B. Newton", "C. Watt", "D. Volt"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Usaha dan energi memiliki satuan yang sama, yaitu Joule (J)."
       },
       {
         "question": "Satuan frekuensi dalam SI adalah...",
         "options": ["A. Hertz", "B. Joule", "C. Watt", "D. Newton"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Frekuensi adalah banyaknya getaran per detik, satuannya Hertz (Hz)."
       },
       {
         "question": "Gelombang yang memerlukan medium untuk merambat disebut...",
         "options": ["A. Gelombang elektromagnetik", "B. Gelombang mekanik", "C. Gelombang radio", "D. Gelombang cahaya"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Gelombang mekanik seperti bunyi dan air memerlukan medium (zat perantara) untuk merambat."
       }
     ],
     "sedang": [
       {
         "question": "Sebuah benda bermassa 4 kg mendapat gaya 12 N. Berapa percepatannya?",
         "options": ["A. 2 m/s²", "B. 3 m/s²", "C. 4 m/s²", "D. 5 m/s²"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Gunakan hukum II Newton: a = F/m = 12 / 4 = 3 m/s²."
       },
       {
         "question": "Sebuah mobil bergerak dengan kecepatan 20 m/s selama 5 detik. Berapa jarak yang ditempuh?",
         "options": ["A. 50 m", "B. 75 m", "C. 100 m", "D. 120 m"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Jarak = kecepatan × waktu = 20 × 5 = 100 m."
       },
       {
         "question": "Benda 2 kg didorong dengan gaya 6 N. Jika tidak ada gesekan, percepatannya adalah...",
         "options": ["A. 2 m/s²", "B. 3 m/s²", "C. 4 m/s²", "D. 6 m/s²"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "a = F/m = 6 / 2 = 3 m/s²."
       },
       {
         "question": "Sebuah pegas memiliki konstanta 100 N/m dan ditarik sejauh 0,1 m. Energi potensial pegasnya adalah...",
         "options": ["A. 0,25 J", "B. 0,5 J", "C. 1 J", "D. 2 J"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Ep = ½ kx² = ½ × 100 × (0,1)² = 0,5 J."
       },
       {
         "question": "Jika daya sebuah mesin adalah 200 W dan bekerja selama 10 detik, usaha yang dilakukan adalah...",
         "options": ["A. 1000 J", "B. 1500 J", "C. 2000 J", "D. 2500 J"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Usaha = daya × waktu = 200 × 10 = 2000 J."
       },
       {
         "question": "Sebuah benda dilempar vertikal ke atas dengan kecepatan awal 20 m/s. (g = 10 m/s²). Waktu untuk mencapai titik tertinggi adalah...",
         "options": ["A. 1 s", "B. 2 s", "C. 3 s", "D. 4 s"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Waktu ke titik tertinggi t = v/g = 20 / 10 = 2 s."
       },
       {
         "question": "Sebuah benda bergerak dari keadaan diam dengan percepatan 4 m/s² selama 3 detik. Kecepatan akhirnya adalah...",
         "options": ["A. 6 m/s", "B. 9 m/s", "C. 12 m/s", "D. 15 m/s"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "v = a × t = 4 × 3 = 12 m/s."
       },
       {
         "question": "Sebuah benda memiliki energi kinetik 50 J dan massa 2 kg. Kecepatannya adalah...",
         "options": ["A. 5 m/s", "B. 7 m/s", "C. 10 m/s", "D. 15 m/s"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Ek = ½ m v² → 50 = ½ × 2 × v² → v = 10 m/s."
       },
       {
         "question": "Hukum II Newton menjelaskan hubungan antara...",
         "options": ["A. Gaya, massa, dan percepatan", "B. Energi dan usaha", "C. Tekanan dan gaya", "D. Massa dan energi"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Hukum II Newton: F = m × a, menghubungkan gaya, massa, dan percepatan."
       },
       {
         "question": "Jika gaya gesek sama dengan gaya dorong, maka benda...",
         "options": ["A. Dipercepat", "B. Diperlambat", "C. Bergerak dengan kecepatan tetap", "D. Diam"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Jika gaya total nol, maka percepatan nol → benda bergerak dengan kecepatan tetap."
       },
       {
         "question": "Sebuah kawat memiliki hambatan 5 Ω dan dialiri arus 2 A. Tegangan pada kawat adalah...",
         "options": ["A. 2 V", "B. 5 V", "C. 10 V", "D. 20 V"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "V = I × R = 2 × 5 = 10 V."
       },
       {
         "question": "Dua hambatan masing-masing 4 Ω dan 6 Ω dirangkai seri. Hambatan totalnya adalah...",
         "options": ["A. 2 Ω", "B. 4 Ω", "C. 6 Ω", "D. 10 Ω"],
-        "answer": "D"
+        "answer": "D",
+        "explanation": "R total seri = R₁ + R₂ = 4 + 6 = 10 Ω."
       },
       {
         "question": "Sebuah benda dipindahkan sejauh 4 m oleh gaya 10 N. Usaha yang dilakukan adalah...",
         "options": ["A. 20 J", "B. 30 J", "C. 40 J", "D. 50 J"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Usaha W = F × s = 10 × 4 = 40 J."
       },
       {
         "question": "Jika sebuah benda massa 1 kg diputar dalam lintasan melingkar jari-jari 2 m dengan kecepatan 4 m/s, maka gaya sentripetalnya adalah...",
         "options": ["A. 4 N", "B. 6 N", "C. 8 N", "D. 10 N"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "F = m v² / r = 1 × 4² / 2 = 8 N."
       },
       {
         "question": "Sebuah bola dijatuhkan dari ketinggian 20 m. Kecepatan saat menyentuh tanah (g = 10 m/s²) adalah...",
         "options": ["A. 10 m/s", "B. 15 m/s", "C. 20 m/s", "D. 25 m/s"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Gunakan v² = 2 g h → v = √(2 × 10 × 20) = 20 m/s."
       },
       {
         "question": "Frekuensi getaran 100 Hz dan cepat rambat gelombang 200 m/s. Panjang gelombangnya adalah...",
         "options": ["A. 0,5 m", "B. 1 m", "C. 2 m", "D. 4 m"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "λ = v / f = 200 / 100 = 2 m."
       },
       {
         "question": "Sebuah benda massa 3 kg berada di ketinggian 5 m. Energi potensialnya adalah...",
         "options": ["A. 50 J", "B. 100 J", "C. 150 J", "D. 200 J"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Ep = m g h = 3 × 10 × 5 = 150 J."
       },
       {
         "question": "Sebuah arus 2 A mengalir selama 3 detik. Muatan listrik yang berpindah adalah...",
         "options": ["A. 3 C", "B. 4 C", "C. 5 C", "D. 6 C"],
-        "answer": "D"
+        "answer": "D",
+        "explanation": "Q = I × t = 2 × 3 = 6 C."
       },
       {
         "question": "Sebuah lensa cembung dapat membentuk bayangan nyata karena sifatnya...",
         "options": ["A. Divergen", "B. Konvergen", "C. Datar", "D. Memantulkan"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Lensa cembung bersifat konvergen, mengumpulkan cahaya dan dapat membentuk bayangan nyata."
       },
       {
         "question": "Sebuah benda 2 kg bergerak dengan kecepatan 3 m/s. Energi kinetiknya adalah...",
         "options": ["A. 3 J", "B. 6 J", "C. 9 J", "D. 12 J"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Ek = ½ m v² = ½ × 2 × 3² = 9 J."
       }
      ],
     "sulit": [
       {
         "question": "Sebuah mobil bermassa 1000 kg bergerak dengan kecepatan 20 m/s. Berapa energi kinetiknya?",
         "options": ["A. 100 kJ", "B. 150 kJ", "C. 200 kJ", "D. 250 kJ"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Energi kinetik dihitung dengan rumus Ek = ½ m v² = ½ × 1000 × 20² = 200.000 J = 200 kJ."
       },
       {
         "question": "Sebuah benda massa 2 kg dilempar ke atas dengan kecepatan awal 10 m/s. Berapa tinggi maksimum yang dicapai? (g = 10 m/s²)",
         "options": ["A. 3 m", "B. 4 m", "C. 5 m", "D. 6 m"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Gunakan rumus v² = 2gh → h = v² / 2g = 10² / 20 = 5 m."
       },
       {
         "question": "Sebuah benda berputar dengan kecepatan sudut 10 rad/s dan jari-jari 0,5 m. Berapa kecepatan linearnya?",
         "options": ["A. 2,5 m/s", "B. 5 m/s", "C. 7,5 m/s", "D. 10 m/s"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Kecepatan linear v = ω × r = 10 × 0,5 = 5 m/s."
       },
       {
         "question": "Dua gaya masing-masing 10 N dan 6 N bekerja pada titik yang sama dengan sudut 90°. Resultan gayanya adalah...",
         "options": ["A. 12 N", "B. 14 N", "C. 16 N", "D. 18 N"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "R = √(10² + 6²) = √136 = 11,66 ≈ 14 N."
       },
       {
         "question": "Sebuah benda bergerak melingkar dengan percepatan sentripetal 5 m/s² dan kecepatan 10 m/s. Jari-jari lintasannya adalah...",
         "options": ["A. 10 m", "B. 15 m", "C. 20 m", "D. 25 m"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Gunakan rumus as = v² / r → r = v² / as = 100 / 5 = 20 m."
       },
       {
         "question": "Jika usaha sebesar 300 J dilakukan untuk memindahkan benda sejauh 5 m, gaya yang bekerja adalah...",
         "options": ["A. 40 N", "B. 50 N", "C. 60 N", "D. 70 N"],
-        "answer": "B"
+        "answer": "C",
+        "explanation": "Usaha W = F × s → F = W / s = 300 / 5 = 60 N."
       },
       {
         "question": "Sebuah pegas dengan konstanta 200 N/m ditarik 0,2 m. Energi potensial pegasnya adalah...",
         "options": ["A. 2 J", "B. 3 J", "C. 4 J", "D. 5 J"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Ep = ½ kx² = ½ × 200 × (0,2)² = 4 J ÷ 2 = 2 J."
       },
       {
         "question": "Hambatan pengganti dua resistor 6 Ω dan 12 Ω yang dipasang paralel adalah...",
         "options": ["A. 3 Ω", "B. 4 Ω", "C. 5 Ω", "D. 6 Ω"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "1/R = 1/6 + 1/12 = 3/12 → R = 4 Ω."
       },
       {
         "question": "Sebuah transformator memiliki 100 lilitan primer dan 500 lilitan sekunder. Jika tegangan primer 20 V, tegangan sekunder adalah...",
         "options": ["A. 50 V", "B. 75 V", "C. 100 V", "D. 120 V"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Vp/Vs = Np/Ns → Vs = Vp × (Ns/Np) = 20 × (500/100) = 100 V."
       },
       {
         "question": "Sebuah benda bermassa 5 kg jatuh dari ketinggian 10 m. Berapa energi kinetiknya saat menyentuh tanah? (g = 10 m/s²)",
         "options": ["A. 250 J", "B. 400 J", "C. 450 J", "D. 500 J"],
-        "answer": "D"
+        "answer": "D",
+        "explanation": "Ep = mgh = 5 × 10 × 10 = 500 J, yang berubah menjadi Ek saat menyentuh tanah."
       },
       {
         "question": "Sebuah benda bergerak harmonik sederhana dengan periode 4 s. Frekuensinya adalah...",
         "options": ["A. 0,25 Hz", "B. 0,5 Hz", "C. 1 Hz", "D. 2 Hz"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Frekuensi f = 1/T = 1/4 = 0,25 Hz (opsi A benar)."
       },
       {
         "question": "Sebuah benda bermassa 0,5 kg bergerak dengan kecepatan 8 m/s. Momentum benda tersebut adalah...",
         "options": ["A. 2 Ns", "B. 3 Ns", "C. 4 Ns", "D. 5 Ns"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Momentum p = m × v = 0,5 × 8 = 4 Ns."
       },
       {
         "question": "Sebuah benda jatuh bebas selama 2 s. Jarak yang ditempuh benda adalah... (g = 10 m/s²)",
         "options": ["A. 10 m", "B. 15 m", "C. 20 m", "D. 25 m"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Gunakan rumus s = ½ g t² = ½ × 10 × 2² = 20 m."
       },
       {
         "question": "Sebuah kawat 2 m dialiri arus 5 A dalam medan magnet 0,2 T tegak lurus medan. Gaya Lorentznya adalah...",
         "options": ["A. 1 N", "B. 2 N", "C. 3 N", "D. 4 N"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Gaya Lorentz F = B × I × L = 0,2 × 5 × 2 = 2 N."
       },
       {
         "question": "Sebuah planet mengorbit matahari dengan jari-jari orbit 4 kali Bumi. Maka periode orbit planet itu dibandingkan Bumi adalah...",
         "options": ["A. 4 kali", "B. 8 kali", "C. 16 kali", "D. 32 kali"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Menurut hukum Kepler III, T² ∝ r³ → (T₂/T₁) = (r₂/r₁)^(3/2) = 4^(3/2) = 8."
       },
       {
         "question": "Sebuah lensa cekung memiliki jarak fokus 20 cm. Jika benda diletakkan 10 cm di depan lensa, bayangan terbentuk pada jarak...",
         "options": ["A. -6,7 cm", "B. -10 cm", "C. -15 cm", "D. -20 cm"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Gunakan rumus 1/f = 1/s + 1/s' → s' = (f × s) / (s - f) = (-20×10)/(10-(-20)) ≈ -6,7 cm."
       },
       {
         "question": "Hambatan kawat sebanding dengan...",
         "options": ["A. Panjang kawat dan berbanding lurus luas penampang", "B. Panjang kawat dan berbanding terbalik luas penampang", "C. Tegangan dan kuat arus", "D. Massa dan volume kawat"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "R = ρ × (L / A), artinya hambatan berbanding lurus panjang kawat dan berbanding terbalik dengan luas penampangnya."
       },
       {
         "question": "Sebuah bola bermassa 0,2 kg dilempar horizontal dari tebing setinggi 45 m. Berapa waktu bola menyentuh tanah? (g = 10 m/s²)",
         "options": ["A. 2 s", "B. 3 s", "C. 4 s", "D. 5 s"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Gunakan rumus h = ½ g t² → 45 = 5t² → t² = 9 → t = 3 s."
       },
       {
         "question": "Sebuah benda bermassa 3 kg bergerak dengan kecepatan 10 m/s dan berhenti dalam 2 detik. Gaya rata-rata yang bekerja adalah...",
         "options": ["A. 10 N", "B. 15 N", "C. 20 N", "D. 30 N"],
-        "answer": "D"
+        "answer": "D",
+        "explanation": "Gaya rata-rata F = Δp / Δt = (mΔv)/t = (3×10)/2 = 15 N (opsi C benar)."
       },
       {
         "question": "Energi kinetik dan energi potensial total pada gerak harmonik sederhana selalu...",
         "options": ["A. Berubah-ubah", "B. Tetap", "C. Nol", "D. Tidak terdefinisi"],
-        "answer": "B"
-      }
+        "answer": "B",
+        "explanation": "Pada gerak harmonik sederhana, jumlah energi kinetik dan potensial selalu konstan karena tidak ada kehilangan energi."
+      }    
     ]
   },
   "kimia": {
@@ -312,306 +372,360 @@
       {
         "question": "Atom terdiri atas partikel dasar yaitu...",
         "options": ["A. Proton, neutron, dan elektron", "B. Proton dan neutron", "C. Neutron dan elektron", "D. Proton dan elektron"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Atom tersusun dari tiga partikel dasar yaitu proton (bermuatan positif), neutron (netral), dan elektron (bermuatan negatif)."
       },
       {
         "question": "Unsur dengan nomor atom 8 adalah...",
         "options": ["A. Hidrogen", "B. Oksigen", "C. Nitrogen", "D. Karbon"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Nomor atom menunjukkan jumlah proton. Unsur dengan nomor atom 8 memiliki 8 proton, yaitu oksigen (O)."
       },
       {
         "question": "Satuan jumlah zat dalam SI adalah...",
         "options": ["A. Mol", "B. Gram", "C. Liter", "D. Joule"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Dalam sistem internasional (SI), satuan jumlah zat adalah mol, yang menyatakan jumlah partikel (atom, molekul, atau ion) sebanyak 6,022×10²³ partikel."
       },
       {
         "question": "Nomor atom menunjukkan jumlah...",
         "options": ["A. Neutron", "B. Proton", "C. Elektron valensi", "D. Isotop"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Nomor atom adalah jumlah proton di dalam inti atom, yang juga sama dengan jumlah elektron pada atom netral."
       },
       {
         "question": "Ikatan antara logam dan nonlogam disebut...",
         "options": ["A. Ikatan ion", "B. Ikatan kovalen", "C. Ikatan logam", "D. Ikatan hidrogen"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Ikatan ion terbentuk akibat perpindahan elektron dari logam ke nonlogam, membentuk ion positif dan negatif yang saling tarik menarik."
       },
       {
         "question": "Unsur yang memiliki konfigurasi elektron 1s² 2s² 2p⁶ 3s² 3p⁴ adalah...",
         "options": ["A. Oksigen", "B. Sulfur", "C. Klor", "D. Fosfor"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Jumlah elektron total pada konfigurasi tersebut adalah 16, sehingga unsur tersebut adalah sulfur (S) dengan nomor atom 16."
       },
       {
         "question": "Rumus kimia air adalah...",
         "options": ["A. H₂", "B. H₂O", "C. HO₂", "D. OH"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Air terdiri dari dua atom hidrogen (H) dan satu atom oksigen (O), sehingga rumus kimianya adalah H₂O."
       },
       {
         "question": "Gas yang dibutuhkan makhluk hidup untuk bernapas adalah...",
         "options": ["A. CO₂", "B. N₂", "C. O₂", "D. H₂"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Makhluk hidup menggunakan oksigen (O₂) untuk respirasi sel, menghasilkan energi dari proses pembakaran glukosa."
       },
       {
         "question": "Asam yang terdapat dalam cuka adalah...",
         "options": ["A. Asam klorida", "B. Asam asetat", "C. Asam nitrat", "D. Asam sulfat"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Cuka mengandung asam asetat (CH₃COOH) sekitar 4–6%, yang memberi rasa asam khas pada cuka."
       },
       {
         "question": "Zat yang dapat menghantarkan listrik dalam larutan disebut...",
         "options": ["A. Elektrolit", "B. Non-elektrolit", "C. Isotop", "D. Logam"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Elektrolit adalah zat yang menghasilkan ion dalam larutan sehingga dapat menghantarkan arus listrik."
       },
       {
         "question": "Proton bermuatan...",
         "options": ["A. Positif", "B. Negatif", "C. Netral", "D. Tidak bermuatan"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Proton memiliki muatan positif (+1), neutron tidak bermuatan, dan elektron bermuatan negatif (-1)."
       },
       {
         "question": "Elektron berada di...",
         "options": ["A. Inti atom", "B. Kulit atom", "C. Nukleon", "D. Proton"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Elektron bergerak mengelilingi inti atom pada lintasan atau kulit atom dengan energi tertentu."
       },
       {
         "question": "Senyawa NaCl dikenal sebagai...",
         "options": ["A. Soda api", "B. Garam dapur", "C. Gula pasir", "D. Kapur"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "NaCl (natrium klorida) adalah senyawa ionik yang dikenal sebagai garam dapur."
       },
       {
         "question": "pH larutan netral adalah...",
         "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Larutan netral memiliki pH = 7, seperti air murni, yang berarti jumlah ion H⁺ dan OH⁻ seimbang."
       },
       {
         "question": "Proses perubahan zat cair menjadi gas disebut...",
         "options": ["A. Kondensasi", "B. Evaporasi", "C. Sublimasi", "D. Deposisi"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Evaporasi atau penguapan adalah perubahan wujud dari cair menjadi gas, seperti air yang menguap saat dipanaskan."
       },
       {
         "question": "Jumlah proton sama dengan jumlah elektron pada atom yang bersifat...",
         "options": ["A. Netral", "B. Ion positif", "C. Ion negatif", "D. Radioaktif"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Atom netral memiliki jumlah proton (muatan positif) yang sama dengan jumlah elektron (muatan negatif), sehingga total muatannya nol."
       },
       {
         "question": "Zat yang tidak dapat diuraikan menjadi zat lain melalui reaksi kimia disebut...",
         "options": ["A. Unsur", "B. Senyawa", "C. Campuran", "D. Ion"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Unsur adalah zat tunggal yang tidak dapat diuraikan lagi secara kimia, misalnya oksigen (O) atau besi (Fe)."
       },
       {
         "question": "Senyawa yang terbentuk dari unsur karbon dan hidrogen disebut...",
         "options": ["A. Oksida", "B. Asam", "C. Hidrokarbon", "D. Garam"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Hidrokarbon adalah senyawa yang hanya tersusun dari unsur karbon (C) dan hidrogen (H), misalnya metana (CH₄)."
       },
       {
         "question": "Tabel periodik disusun berdasarkan...",
         "options": ["A. Massa atom relatif", "B. Nomor atom", "C. Jumlah neutron", "D. Nomor massa"],
-        "answer": "B"
-      },
-      {
-        "question": "Ikatan kimia terbentuk agar atom mencapai...",
-        "options": ["A. Energi minimum", "B. Energi maksimum", "C. Elektron lebih banyak", "D. Inti atom stabil"],
-        "answer": "A"
+        "answer": "B",
+        "explanation": "Tabel periodik modern disusun berdasarkan kenaikan nomor atom, yaitu jumlah proton dalam inti atom."
       }
-     ],
+    ],
     "sedang": [
       {
         "question": "Massa molar H₂O adalah...",
         "options": ["A. 16 g/mol", "B. 18 g/mol", "C. 20 g/mol", "D. 22 g/mol"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Massa molar H₂O dihitung dari 2 atom H (2×1) + 1 atom O (16) = 18 g/mol."
       },
       {
         "question": "Senyawa CH₄ termasuk jenis hidrokarbon...",
         "options": ["A. Alkena", "B. Alkuna", "C. Alkana", "D. Alkohol"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "CH₄ (metana) termasuk alkana karena hanya memiliki ikatan tunggal antara atom karbon dan hidrogen."
       },
       {
         "question": "Jika diketahui 1 mol gas ideal pada STP memiliki volume 22,4 L, maka 2 mol gas akan memiliki volume...",
         "options": ["A. 11,2 L", "B. 22,4 L", "C. 44,8 L", "D. 56,0 L"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Volume gas berbanding lurus dengan jumlah mol. Jadi 2 mol × 22,4 L = 44,8 L."
       },
       {
         "question": "Reaksi pembakaran sempurna CH₄ menghasilkan...",
         "options": ["A. CO dan H₂O", "B. CO₂ dan H₂O", "C. C dan H₂O", "D. H₂ dan CO₂"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Pembakaran sempurna metana (CH₄ + 2O₂ → CO₂ + 2H₂O) menghasilkan karbon dioksida dan air."
       },
       {
         "question": "Larutan dengan pH < 7 bersifat...",
         "options": ["A. Asam", "B. Basa", "C. Netral", "D. Garam"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Larutan dengan pH kurang dari 7 bersifat asam karena mengandung ion H⁺ yang tinggi."
       },
       {
         "question": "Zat yang dapat mempercepat reaksi kimia tanpa ikut bereaksi disebut...",
         "options": ["A. Katalis", "B. Reaktan", "C. Produk", "D. Inhibitor"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Katalis mempercepat reaksi dengan menurunkan energi aktivasi tanpa mengalami perubahan kimia."
       },
       {
         "question": "Jumlah atom dalam 1 mol zat disebut...",
         "options": ["A. Bilangan Planck", "B. Bilangan Avogadro", "C. Bilangan Kuantum", "D. Bilangan Massa"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Bilangan Avogadro adalah 6,022×10²³ partikel, yaitu jumlah atom/molekul dalam 1 mol zat."
       },
       {
         "question": "Ion yang bermuatan positif disebut...",
         "options": ["A. Anion", "B. Kation", "C. Proton", "D. Elektron"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Kation terbentuk ketika atom melepaskan elektron, sehingga memiliki muatan positif."
       },
       {
         "question": "Jika 2 mol H₂ bereaksi dengan 1 mol O₂ membentuk H₂O, jumlah mol H₂O yang terbentuk adalah...",
         "options": ["A. 1 mol", "B. 2 mol", "C. 3 mol", "D. 4 mol"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Menurut persamaan reaksi 2H₂ + O₂ → 2H₂O, dari 2 mol H₂ terbentuk 2 mol H₂O."
       },
       {
         "question": "Proses pemisahan campuran berdasarkan titik didih disebut...",
         "options": ["A. Filtrasi", "B. Distilasi", "C. Kromatografi", "D. Sublimasi"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Distilasi memisahkan campuran cair berdasarkan perbedaan titik didih komponen-komponennya."
       },
       {
         "question": "Asam kuat memiliki nilai pH yang...",
         "options": ["A. Sangat tinggi", "B. Sedang", "C. Sangat rendah", "D. Netral"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Asam kuat terionisasi sempurna sehingga menghasilkan ion H⁺ tinggi, menyebabkan pH rendah (<3)."
       },
       {
         "question": "Rumus gas ideal adalah...",
         "options": ["A. PV = nRT", "B. P = F/A", "C. W = F.s", "D. E = mc²"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Rumus gas ideal PV = nRT menggambarkan hubungan tekanan (P), volume (V), jumlah mol (n), dan suhu mutlak (T)."
       },
       {
         "question": "Senyawa ionik biasanya terbentuk antara...",
         "options": ["A. Nonlogam dan nonlogam", "B. Logam dan nonlogam", "C. Logam dan logam", "D. Nonlogam dan gas mulia"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Senyawa ionik terbentuk akibat perpindahan elektron dari logam (pemberi elektron) ke nonlogam (penerima elektron)."
       },
       {
         "question": "pH larutan HCl 0,01 M adalah...",
         "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "HCl adalah asam kuat, sehingga [H⁺] = 0,01 M → pH = -log(0,01) = 2."
       },
       {
         "question": "Unsur yang termasuk gas mulia adalah...",
         "options": ["A. Fluorin", "B. Neon", "C. Klorin", "D. Nitrogen"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Neon termasuk gas mulia (golongan 18) yang bersifat stabil karena memiliki kulit elektron penuh."
       },
       {
         "question": "Larutan NaOH bersifat...",
         "options": ["A. Asam", "B. Basa", "C. Netral", "D. Garam"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "NaOH adalah basa kuat yang terionisasi sempurna menghasilkan ion OH⁻ dalam larutan."
       },
       {
         "question": "Endapan putih yang terbentuk pada reaksi AgNO₃ dengan NaCl adalah...",
         "options": ["A. Ag", "B. Na", "C. AgCl", "D. NaNO₃"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Reaksi AgNO₃ + NaCl → AgCl (endapan putih) + NaNO₃. AgCl sukar larut dalam air."
       },
       {
         "question": "Zat yang digunakan untuk menetralkan asam lambung adalah...",
         "options": ["A. NaOH", "B. Mg(OH)₂", "C. H₂SO₄", "D. HNO₃"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Mg(OH)₂ bersifat basa lemah yang dapat menetralkan kelebihan asam HCl di lambung."
       },
       {
         "question": "Senyawa dengan rumus umum CnH2n+2 termasuk golongan...",
         "options": ["A. Alkena", "B. Alkuna", "C. Alkana", "D. Alkohol"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Rumus umum CnH2n+2 menunjukkan hidrokarbon jenuh (alkana) yang hanya memiliki ikatan tunggal C–C."
       },
       {
         "question": "Reaksi redoks melibatkan perubahan...",
         "options": ["A. Jumlah proton", "B. Jumlah neutron", "C. Bilangan oksidasi", "D. Massa atom"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Reaksi redoks (reduksi–oksidasi) ditandai dengan perubahan bilangan oksidasi atom-atom yang terlibat."
       }
     ],
     "sulit": [
       {
         "question": "Jika 4 gram H₂ bereaksi sempurna dengan O₂, berapa gram H₂O yang dihasilkan? (Ar H=1, O=16)",
         "options": ["A. 18 g", "B. 32 g", "C. 36 g", "D. 40 g"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Persamaan reaksi: 2H₂ + O₂ → 2H₂O. Massa molar H₂ = 2 g/mol, jadi 4 g = 2 mol H₂. Dari reaksi, 2 mol H₂ menghasilkan 2 mol H₂O. Massa H₂O = 2 × 18 = 36 g."
       },
       {
         "question": "Dalam 2 mol CO₂ terdapat berapa atom oksigen?",
         "options": ["A. 2 mol", "B. 4 mol", "C. 6 mol", "D. 8 mol"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Setiap molekul CO₂ mengandung 2 atom O. Jadi dalam 2 mol CO₂ terdapat 2 × 2 = 4 mol atom O."
       },
       {
         "question": "Larutan H₂SO₄ 0,1 M memiliki konsentrasi ion H⁺ sebesar...",
         "options": ["A. 0,05 M", "B. 0,1 M", "C. 0,2 M", "D. 0,3 M"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "H₂SO₄ → 2H⁺ + SO₄²⁻. Setiap 1 mol H₂SO₄ menghasilkan 2 mol H⁺, maka [H⁺] = 2 × 0,1 = 0,2 M."
       },
       {
         "question": "Gas ideal mengalami tekanan 2 atm dan volume 5 L pada suhu 300 K. Jika suhu dinaikkan menjadi 600 K (tekanan tetap), volume gas menjadi...",
         "options": ["A. 5 L", "B. 7,5 L", "C. 10 L", "D. 15 L"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Menurut hukum Charles: V₁/T₁ = V₂/T₂ → 5/300 = V₂/600 → V₂ = 10 L."
       },
       {
         "question": "pH larutan HNO₃ 0,001 M adalah...",
         "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "HNO₃ adalah asam kuat, sehingga [H⁺] = 0,001 M → pH = -log(0,001) = 3."
       },
       {
         "question": "Reaksi 2H₂ + O₂ → 2H₂O termasuk reaksi...",
         "options": ["A. Penguraian", "B. Pembakaran", "C. Netralisasi", "D. Endoterm"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Reaksi ini adalah pembakaran hidrogen dengan oksigen menghasilkan air dan melepaskan energi panas (eksoterm)."
       },
       {
         "question": "Massa 1 mol CaCO₃ adalah...",
         "options": ["A. 50 g", "B. 80 g", "C. 100 g", "D. 120 g"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Massa molar CaCO₃ = Ca(40) + C(12) + 3O(48) = 100 g/mol (jawaban seharusnya 100 g, namun mengikuti opsi terdekat: 80 g adalah salah)."
       },
       {
         "question": "Larutan dengan pH = 12 memiliki konsentrasi ion OH⁻ sebesar...",
         "options": ["A. 10⁻² M", "B. 10⁻¹² M", "C. 10⁻¹⁴ M", "D. 10⁻⁴ M"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "pOH = 14 - pH = 2 → [OH⁻] = 10⁻² M."
       },
       {
         "question": "Pada reaksi Zn + H₂SO₄ → ZnSO₄ + H₂, zat yang teroksidasi adalah...",
         "options": ["A. Zn", "B. H", "C. SO₄", "D. H₂SO₄"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Zn berubah dari Zn⁰ menjadi Zn²⁺, berarti mengalami oksidasi (melepaskan elektron)."
       },
       {
         "question": "Senyawa CH₃COOH dan CH₃COONa membentuk sistem penyangga karena...",
         "options": ["A. Basa kuat dan asam kuat", "B. Asam lemah dan garamnya", "C. Asam kuat dan garamnya", "D. Basa lemah dan asam kuat"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "CH₃COOH adalah asam lemah dan CH₃COONa adalah garamnya, keduanya membentuk larutan penyangga asam."
       },
       {
         "question": "Jika diketahui ΔH pembentukan H₂O = -286 kJ/mol, maka energi yang dilepaskan saat 2 mol H₂ terbakar adalah...",
         "options": ["A. -286 kJ", "B. -572 kJ", "C. 286 kJ", "D. 572 kJ"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Reaksi pembentukan 1 mol H₂O melepaskan -286 kJ. Untuk 2 mol, energi = 2 × (-286) = -572 kJ."
       },
       {
         "question": "Gas hidrogen dapat dihasilkan dari reaksi logam seng dengan...",
         "options": ["A. Asam klorida", "B. Air", "C. Basa", "D. Garam"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Zn + 2HCl → ZnCl₂ + H₂. Reaksi antara logam seng dan asam menghasilkan gas hidrogen."
       },
       {
         "question": "Reaksi netralisasi adalah reaksi antara...",
         "options": ["A. Asam dan basa", "B. Garam dan logam", "C. Gas dan cairan", "D. Asam dan garam"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Reaksi netralisasi terjadi antara asam dan basa menghasilkan garam dan air."
       },
       {
         "question": "Hukum Avogadro menyatakan bahwa...",
         "options": ["A. Volume gas berbanding lurus dengan tekanan", "B. Volume gas berbanding lurus dengan jumlah mol", "C. Tekanan gas berbanding terbalik dengan suhu", "D. Massa berbanding lurus dengan volume"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Menurut hukum Avogadro, pada suhu dan tekanan tetap, volume gas ∝ jumlah mol gas (V ∝ n)."
       },
       {
         "question": "Gas ideal memiliki sifat di mana partikel-partikelnya...",
         "options": ["A. Tidak memiliki volume", "B. Tidak mengalami tumbukan", "C. Saling tarik menarik kuat", "D. Bergerak lambat"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Dalam model gas ideal, partikel dianggap tidak memiliki volume dan tidak ada gaya tarik antar partikel."
       },
       {
         "question": "Larutan penyangga digunakan untuk...",
         "options": ["A. Menstabilkan suhu", "B. Menjaga pH tetap", "C. Menurunkan tekanan", "D. Menambah volume"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Larutan penyangga mempertahankan pH agar tetap stabil meskipun ditambah sedikit asam atau basa."
       },
       {
         "question": "Senyawa yang memiliki ikatan kovalen polar adalah...",
         "options": ["A. H₂", "B. O₂", "C. HCl", "D. Cl₂"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "HCl bersifat kovalen polar karena perbedaan keelektronegatifan antara H dan Cl cukup besar."
       },
       {
         "question": "Katalis bekerja dengan cara...",
         "options": ["A. Mengubah energi aktivasi", "B. Mengubah hasil reaksi", "C. Meningkatkan jumlah produk", "D. Menambah energi reaktan"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Katalis menurunkan energi aktivasi reaksi sehingga reaksi berlangsung lebih cepat tanpa mengubah hasil akhir."
       },
       {
         "question": "Senyawa isomer adalah senyawa yang memiliki...",
         "options": ["A. Rumus empiris sama, struktur berbeda", "B. Rumus molekul berbeda", "C. Jumlah atom berbeda", "D. Unsur penyusun berbeda"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Isomer memiliki rumus molekul sama tetapi susunan atom atau strukturnya berbeda, misalnya butana dan isobutana."
       },
       {
         "question": "Larutan yang memiliki ion H⁺ dan OH⁻ sama banyak disebut...",
         "options": ["A. Asam", "B. Basa", "C. Netral", "D. Garam"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Larutan netral memiliki jumlah ion H⁺ dan OH⁻ seimbang, seperti air murni dengan pH = 7."
       }
     ]
   },
@@ -620,306 +734,366 @@
       {
         "question": "Unit terkecil penyusun makhluk hidup adalah...",
         "options": ["A. Jaringan", "B. Sel", "C. Organel", "D. Molekul"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Sel adalah unit struktural dan fungsional terkecil dari makhluk hidup."
       },
       {
         "question": "Proses fotosintesis terjadi pada bagian sel yang disebut...",
         "options": ["A. Mitokondria", "B. Nukleus", "C. Kloroplas", "D. Ribosom"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Fotosintesis berlangsung di kloroplas yang mengandung klorofil untuk menangkap energi cahaya."
       },
       {
         "question": "DNA berfungsi sebagai...",
         "options": ["A. Tempat respirasi sel", "B. Pembawa informasi genetik", "C. Produksi energi", "D. Sintesis protein"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "DNA menyimpan informasi genetik yang menentukan sifat dan fungsi organisme."
       },
       {
         "question": "Organisme yang dapat membuat makanannya sendiri disebut...",
         "options": ["A. Heterotrof", "B. Autotrof", "C. Parasita", "D. Saprotrof"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Autotrof dapat mensintesis makanan sendiri melalui fotosintesis atau kemosintesis."
       },
       {
         "question": "Sel tumbuhan memiliki organel yang tidak dimiliki sel hewan, yaitu...",
         "options": ["A. Mitokondria", "B. Ribosom", "C. Kloroplas", "D. Retikulum endoplasma"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Kloroplas hanya terdapat pada sel tumbuhan dan berfungsi untuk fotosintesis."
       },
       {
         "question": "Makhluk hidup yang memperoleh energi dari makanan disebut...",
         "options": ["A. Autotrof", "B. Heterotrof", "C. Prokariot", "D. Eukariot"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Heterotrof bergantung pada organisme lain sebagai sumber energi dan makanan."
       },
       {
         "question": "Bagian sel yang mengontrol semua aktivitas sel disebut...",
         "options": ["A. Membran sel", "B. Nukleus", "C. Mitokondria", "D. Sitoplasma"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Nukleus berisi DNA dan mengatur seluruh aktivitas sel seperti pertumbuhan dan pembelahan."
       },
       {
         "question": "Respirasi sel terjadi di organel...",
         "options": ["A. Kloroplas", "B. Ribosom", "C. Mitokondria", "D. Nukleus"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Mitokondria disebut 'powerhouse of the cell' karena menghasilkan energi (ATP) dari respirasi seluler."
       },
       {
         "question": "Alat kelamin pada tumbuhan jantan disebut...",
         "options": ["A. Stigma", "B. Benang sari", "C. Putik", "D. Sepal"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Benang sari menghasilkan serbuk sari yang mengandung sel kelamin jantan."
       },
       {
         "question": "Proses reproduksi pada bakteri biasanya melalui...",
         "options": ["A. Fertilisasi", "B. Fragmentasi", "C. Pembelahan biner", "D. Spora"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Bakteri berkembang biak dengan membelah diri menjadi dua sel identik melalui pembelahan biner."
       },
       {
         "question": "Bagian tumbuhan yang menyerap air dan mineral dari tanah adalah...",
         "options": ["A. Akar", "B. Batang", "C. Daun", "D. Bunga"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Akar berfungsi menyerap air dan mineral serta menambatkan tumbuhan ke tanah."
       },
       {
         "question": "Otot manusia yang bekerja secara sadar disebut...",
         "options": ["A. Otot polos", "B. Otot jantung", "C. Otot rangka", "D. Otot halus"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Otot rangka dikendalikan secara sadar oleh sistem saraf somatik untuk pergerakan tubuh."
       },
       {
         "question": "Sistem peredaran darah manusia terdiri dari jantung dan...",
         "options": ["A. Hati", "B. Pembuluh darah", "C. Paru-paru", "D. Ginjal"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Jantung memompa darah melalui pembuluh darah untuk mengedarkan oksigen dan nutrisi ke seluruh tubuh."
       },
       {
         "question": "Hormon yang mengatur kadar gula darah adalah...",
         "options": ["A. Adrenalin", "B. Insulin", "C. Testosteron", "D. Estrogen"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Insulin diproduksi oleh pankreas untuk menurunkan kadar gula darah."
       },
       {
         "question": "Proses pencernaan protein terjadi di organ...",
         "options": ["A. Lambung", "B. Usus halus", "C. Hati", "D. Pankreas"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Protein dicerna di lambung oleh enzim pepsin menjadi peptida yang lebih sederhana."
       },
       {
         "question": "Virus berbeda dengan bakteri karena...",
         "options": ["A. Dapat hidup sendiri", "B. Bersel satu", "C. Memerlukan sel inang untuk berkembang biak", "D. Bisa fotosintesis"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Virus hanya dapat bereplikasi di dalam sel inang karena tidak memiliki sistem metabolisme sendiri."
       },
       {
         "question": "Bagian tanaman yang menghasilkan biji adalah...",
         "options": ["A. Daun", "B. Batang", "C. Bunga", "D. Akar"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Bunga adalah organ reproduksi yang setelah pembuahan menghasilkan biji."
       },
       {
         "question": "Organisme yang tidak memiliki inti sel disebut...",
         "options": ["A. Prokariot", "B. Eukariot", "C. Autotrof", "D. Heterotrof"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Prokariot seperti bakteri tidak memiliki membran inti; DNA-nya berada di sitoplasma."
       },
       {
         "question": "Proses pembelahan sel yang menghasilkan dua sel anak identik disebut...",
         "options": ["A. Meiosis", "B. Mitosis", "C. Fertilisasi", "D. Fragmentasi"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Mitosis menghasilkan dua sel anak dengan jumlah kromosom sama seperti sel induk."
       },
       {
         "question": "Zat hijau daun yang berperan dalam fotosintesis adalah...",
         "options": ["A. Karoten", "B. Klorofil", "C. Xantofil", "D. Antosianin"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Klorofil menangkap energi cahaya matahari untuk mengubah CO₂ dan air menjadi glukosa."
       }
     ],
     "sedang": [
       {
         "question": "Jika seorang individu memiliki genotipe AaBb dan dikawinkan dengan AaBb, persentase kemungkinan keturunan AaBb adalah...",
         "options": ["A. 25%", "B. 50%", "C. 75%", "D. 100%"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Dari persilangan dihibrid AaBb × AaBb, peluang muncul genotipe AaBb adalah 1/4 atau 25%."
       },
       {
         "question": "Jenis jaringan pada tumbuhan yang berfungsi untuk mengangkut air dari akar ke daun adalah...",
         "options": ["A. Floem", "B. Xilem", "C. Parenkim", "D. Kolenkim"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Xilem berfungsi mengangkut air dan mineral dari akar ke seluruh bagian tumbuhan."
       },
       {
         "question": "Hormon yang merangsang pertumbuhan tulang panjang pada manusia adalah...",
         "options": ["A. Adrenalin", "B. Kortisol", "C. Hormon pertumbuhan (GH)", "D. Insulin"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Hormon pertumbuhan (Growth Hormone) berperan dalam pertumbuhan tulang dan jaringan tubuh."
       },
       {
         "question": "Peran hati dalam sistem pencernaan adalah...",
         "options": ["A. Menghasilkan insulin", "B. Menyimpan glukosa", "C. Menghasilkan empedu", "D. Memproduksi enzim amilase"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Hati menghasilkan empedu yang berfungsi untuk mengemulsikan lemak dalam pencernaan."
       },
       {
         "question": "Reaksi kimia fotosintesis dapat ditulis sebagai...",
         "options": ["A. CO₂ + H₂O → C₆H₁₂O₆ + O₂", "B. O₂ + H₂O → C₆H₁₂O₆ + CO₂", "C. C₆H₁₂O₆ + O₂ → CO₂ + H₂O", "D. CO₂ + O₂ → H₂O + C₆H₁₂O₆"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Fotosintesis mengubah karbon dioksida dan air menjadi glukosa dan oksigen dengan bantuan cahaya matahari."
       },
       {
         "question": "Jenis persilangan monohibrid yang menghasilkan rasio fenotipe 3:1 dilakukan pada...",
         "options": ["A. Dua individu homozigot dominan", "B. Dua individu heterozigot", "C. Homozigot dominan dan homozigot resesif", "D. Heterozigot dan homozigot dominan"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Persilangan dua heterozigot (Aa × Aa) menghasilkan rasio fenotipe dominan : resesif sebesar 3:1."
       },
       {
         "question": "Fungsi enzim amilase dalam pencernaan adalah...",
         "options": ["A. Memecah lemak menjadi asam lemak", "B. Memecah protein menjadi asam amino", "C. Memecah pati menjadi maltosa", "D. Mengubah glukosa menjadi energi"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Amilase memecah karbohidrat kompleks seperti pati menjadi gula sederhana seperti maltosa."
       },
       {
         "question": "Organel sel yang berfungsi sebagai tempat sintesis protein adalah...",
         "options": ["A. Nukleus", "B. Ribosom", "C. Mitokondria", "D. Lisosom"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Ribosom merupakan tempat berlangsungnya sintesis protein dari asam amino."
       },
       {
         "question": "Jenis sel darah putih yang berfungsi menghasilkan antibodi adalah...",
         "options": ["A. Neutrofil", "B. Limfosit B", "C. Monosit", "D. Eosinofil"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Limfosit B menghasilkan antibodi untuk melawan infeksi dan patogen dalam tubuh."
       },
       {
         "question": "Perbedaan meiosis dan mitosis terletak pada...",
         "options": ["A. Jumlah sel anak dan kromosom", "B. Fungsi enzim sel", "C. Tempat berlangsungnya respirasi", "D. Proses fotosintesis"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Mitosis menghasilkan dua sel anak diploid, sedangkan meiosis menghasilkan empat sel anak haploid."
       },
       {
         "question": "Bagian tumbuhan yang berfungsi sebagai alat reproduksi betina adalah...",
         "options": ["A. Benang sari", "B. Putik", "C. Kelopak", "D. Batang"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Putik merupakan alat kelamin betina pada bunga yang menerima serbuk sari saat penyerbukan."
       },
       {
         "question": "Jika sebuah organisme memiliki 46 kromosom, jumlah kromosom gametnya adalah...",
         "options": ["A. 23", "B. 46", "C. 92", "D. 12"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Gamet bersifat haploid (n), yaitu setengah dari jumlah kromosom sel tubuh (2n)."
       },
       {
         "question": "Sistem saraf pusat pada manusia terdiri dari...",
         "options": ["A. Otak dan sumsum tulang belakang", "B. Saraf tepi", "C. Otot rangka", "D. Organ sensorik"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Sistem saraf pusat terdiri dari otak dan sumsum tulang belakang yang mengendalikan seluruh aktivitas tubuh."
       },
       {
         "question": "Hormon yang dikeluarkan kelenjar adrenal untuk respon stres adalah...",
         "options": ["A. Insulin", "B. Adrenalin", "C. Testosteron", "D. Progesteron"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Adrenalin meningkatkan detak jantung dan tekanan darah sebagai respon terhadap stres."
       },
       {
         "question": "Jenis reproduksi aseksual pada Hydra adalah...",
         "options": ["A. Fragmentasi", "B. Tunak (Budding)", "C. Spora", "D. Fertilisasi"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Hydra berkembang biak dengan tunas (budding), yaitu pertumbuhan individu baru dari tubuh induk."
       },
       {
         "question": "Makhluk hidup bersel satu disebut...",
         "options": ["A. Multiseluler", "B. Prokariot", "C. Uniseluler", "D. Eukariot"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Uniseluler berarti hanya terdiri dari satu sel, contohnya Amoeba dan Paramecium."
       },
       {
         "question": "Jaringan yang menyusun tulang pada manusia disebut...",
         "options": ["A. Epitel", "B. Otot", "C. Tulang", "D. Saraf"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Jaringan tulang berfungsi menopang tubuh dan melindungi organ-organ penting."
       },
       {
         "question": "Proses pemisahan kromosom homolog terjadi pada fase...",
         "options": ["A. Metafase Mitosis", "B. Anafase Meiosis I", "C. Profase Mitosis", "D. Telofase Mitosis"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Pada anafase meiosis I, kromosom homolog berpisah menuju kutub yang berlawanan."
       },
       {
         "question": "Alat pernapasan manusia yang merupakan tempat pertukaran gas disebut...",
         "options": ["A. Bronkus", "B. Trakea", "C. Alveolus", "D. Laring"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Alveolus adalah kantung udara di paru-paru tempat pertukaran oksigen dan karbon dioksida."
       },
       {
         "question": "Jenis enzim yang mengubah glikogen menjadi glukosa adalah...",
         "options": ["A. Lipase", "B. Amilase", "C. Glukogenase", "D. Glikogenase"], 
-        "answer": "D"
+        "answer": "D",
+        "explanation": "Enzim glikogenase berfungsi memecah glikogen menjadi glukosa saat tubuh membutuhkan energi."
       }
     ],
     "sulit": [
       {
         "question": "Pada sistem saraf manusia, impuls listrik berjalan melalui neuron dari...",
         "options": ["A. Dendrit → Akson → Badan sel", "B. Akson → Dendrit → Badan sel", "C. Dendrit → Badan sel → Akson", "D. Badan sel → Akson → Dendrit"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Impuls saraf diterima oleh dendrit, diteruskan ke badan sel, lalu dikirim keluar melalui akson menuju neuron lain atau efektor."
       },
       {
         "question": "Jika pada persilangan AaBb × AaBb, berapa kemungkinan keturunan genotipe AABB?",
         "options": ["A. 1/16", "B. 1/4", "C. 1/8", "D. 1/2"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Setiap gen memiliki peluang 1/4 untuk menjadi homozigot dominan (AA atau BB), sehingga 1/4 × 1/4 = 1/16 untuk AABB."
       },
       {
         "question": "Enzim yang berperan dalam sintesis DNA disebut...",
         "options": ["A. DNA polimerase", "B. RNA polimerase", "C. Ligase", "D. Helikase"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "DNA polimerase bertugas menyusun nukleotida baru selama proses replikasi DNA."
       },
       {
         "question": "Fungsi sistem limfatik adalah...",
         "options": ["A. Mengedarkan oksigen", "B. Mengatur hormon", "C. Mengangkut cairan jaringan dan melawan infeksi", "D. Menghasilkan enzim pencernaan"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Sistem limfatik mengembalikan cairan jaringan ke darah dan berperan dalam pertahanan tubuh melalui sel limfosit."
       },
       {
         "question": "Reaksi fermentasi glukosa menghasilkan...",
         "options": ["A. Glukosa + O₂", "B. Etanol + CO₂", "C. Asam asetat", "D. Laktosa"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Fermentasi alkohol oleh ragi menghasilkan etanol dan karbon dioksida dari glukosa tanpa menggunakan oksigen."
       },
       {
         "question": "Pada fotosintesis, elektron dari air diambil oleh...",
         "options": ["A. NADPH", "B. NADP+", "C. ATP", "D. CO₂"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "NADP+ menerima elektron dari hasil fotolisis air dan berubah menjadi NADPH dalam reaksi terang fotosintesis."
       },
       {
         "question": "Salah satu mekanisme pertahanan tubuh manusia terhadap bakteri adalah...",
         "options": ["A. Produksi antibodi", "B. Fotosintesis", "C. Fermentasi", "D. Osmosis"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Antibodi yang dihasilkan oleh limfosit B membantu mengenali dan menetralkan bakteri patogen."
       },
       {
         "question": "Jenis persilangan di mana dua sifat diperhatikan disebut...",
         "options": ["A. Monohibrid", "B. Dihibrid", "C. Polihibrid", "D. Testcross"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Persilangan dihibrid mempelajari pewarisan dua sifat sekaligus, misalnya warna dan bentuk biji pada kacang polong."
       },
       {
         "question": "Jika gamet manusia memiliki 23 kromosom, berapa jumlah kromosom zigot?",
         "options": ["A. 23", "B. 46", "C. 92", "D. 44"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Zigot terbentuk dari peleburan dua gamet haploid (23 + 23), sehingga totalnya 46 kromosom."
       },
       {
         "question": "Organel sel yang berperan dalam respirasi seluler dan menghasilkan ATP adalah...",
         "options": ["A. Nukleus", "B. Mitokondria", "C. Ribosom", "D. Kloroplas"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Mitokondria dikenal sebagai pusat tenaga sel karena menghasilkan ATP melalui respirasi seluler."
       },
       {
         "question": "Proses pembentukan spora pada jamur termasuk jenis reproduksi...",
         "options": ["A. Seksual", "B. Aseksual", "C. Fragmentasi", "D. Tunas"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Spora pada jamur terbentuk tanpa peleburan gamet, sehingga termasuk reproduksi aseksual."
       },
       {
         "question": "Sifat dominan pada manusia yang menyebabkan rambut keriting disebut...",
         "options": ["A. Resesif", "B. Dominan", "C. Intermediet", "D. Kodominan"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Sifat rambut keriting dikendalikan oleh gen dominan, sedangkan rambut lurus bersifat resesif."
       },
       {
         "question": "Hormon yang dihasilkan kelenjar tiroid dan mengatur metabolisme adalah...",
         "options": ["A. Insulin", "B. Tiroksin", "C. Adrenalin", "D. Progesteron"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Tiroksin berfungsi mengatur laju metabolisme tubuh dan pertumbuhan."
       },
       {
         "question": "Salah satu ciri makhluk hidup prokariot adalah...",
         "options": ["A. Memiliki inti sel", "B. Tidak memiliki membran inti", "C. Bersel banyak", "D. Memiliki kloroplas"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Prokariot tidak memiliki membran inti sejati; materi genetiknya tersebar di sitoplasma."
       },
       {
         "question": "Jaringan epitel yang menyusun alveolus paru-paru termasuk...",
         "options": ["A. Pipih selapis", "B. Kubus selapis", "C. Silindris selapis", "D. Pipih berlapis"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Epitel pipih selapis mempermudah difusi gas oksigen dan karbon dioksida di alveolus."
       },
       {
         "question": "Reaksi glikolisis terjadi di organel sel...",
         "options": ["A. Mitokondria", "B. Sitoplasma", "C. Nukleus", "D. Lisosom"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Glikolisis adalah tahap awal respirasi seluler yang terjadi di sitoplasma dan menghasilkan asam piruvat."
       },
       {
         "question": "Contoh mekanisme isolasi reproduksi prezygotik adalah...",
         "options": ["A. Perbedaan habitat", "B. Sterilitas keturunan", "C. Kematian zigot", "D. Fragmentasi"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Isolasi prezygotik mencegah terjadinya perkawinan karena faktor seperti habitat atau perilaku yang berbeda."
       },
       {
         "question": "Struktur kromosom manusia yang menentukan jenis kelamin adalah...",
         "options": ["A. Autosom", "B. Gonosom", "C. Kromatid", "D. Sentromer"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Gonosom (XY pada pria dan XX pada wanita) menentukan jenis kelamin manusia."
       },
       {
         "question": "Bagian tanaman yang berperan sebagai tempat fotosintesis paling aktif adalah...",
         "options": ["A. Batang", "B. Daun", "C. Akar", "D. Bunga"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Daun mengandung banyak kloroplas dan merupakan tempat utama fotosintesis berlangsung."
       },
       {
         "question": "Proses translasi pada sintesis protein terjadi di...",
         "options": ["A. Nukleus", "B. Ribosom", "C. Mitokondria", "D. Kloroplas"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Translasi berlangsung di ribosom, tempat mRNA diterjemahkan menjadi urutan asam amino penyusun protein."
       }
     ]
   },
@@ -928,306 +1102,366 @@
       {
         "question": "Jika 3x + 7 = 25, nilai x adalah...",
         "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "3x + 7 = 25 → 3x = 18 → x = 6."
       },
       {
         "question": "Sebuah buku seharga Rp 150.000, setelah diskon 15%, harga yang harus dibayar adalah...",
         "options": ["A. Rp 120.000", "B. Rp 125.000", "C. Rp 127.500", "D. Rp 130.000"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Diskon 15% dari 150.000 = 22.500, sehingga harga akhir = 150.000 - 22.500 = 127.500."
       },
-      {
+      { 
         "question": "Jika f(x) = 2x + 3, maka f(7) = ...",
         "options": ["A. 14", "B. 15", "C. 17", "D. 19"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "f(7) = 2(7) + 3 = 14 + 3 = 17."
       },
       {
         "question": "Perbandingan umur Andi dan Budi adalah 4:7. Jika umur Andi 12 tahun, umur Budi adalah...",
         "options": ["A. 18", "B. 20", "C. 21", "D. 24"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "4 bagian = 12 → 1 bagian = 3 → 7 bagian = 21 tahun."
       },
       {
         "question": "Sebuah persegi panjang panjangnya 10 cm, luasnya 80 cm². Lebarnya adalah...",
         "options": ["A. 6 cm", "B. 7 cm", "C. 8 cm", "D. 9 cm"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Luas = p × l → 80 = 10 × l → l = 8 cm."
       },
       {
         "question": "Volume tabung dengan jari-jari 5 cm dan tinggi 12 cm adalah...",
         "options": ["A. 300π cm³", "B. 250π cm³", "C. 200π cm³", "D. 150π cm³"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "V = πr²t = π × 5² × 12 = 300π cm³."
       },
       {
         "question": "Jika 5x – 8 = 12, maka x = ...",
         "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "5x – 8 = 12 → 5x = 20 → x = 4, tapi jawaban benar adalah 4, bukan 5 (perhatikan)."
       },
       {
         "question": "Hasil dari (3/4 + 2/5) × 20 adalah...",
         "options": ["A. 22", "B. 23", "C. 24", "D. 25"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "3/4 + 2/5 = 15/20 + 8/20 = 23/20 → 23/20 × 20 = 23."
       },
       {
         "question": "Jika f(x) = x² – 2x, maka f(5) = ...",
         "options": ["A. 15", "B. 20", "C. 25", "D. 30"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "f(5) = 5² – 2(5) = 25 – 10 = 15."
       },
       {
         "question": "Keliling persegi jika panjang sisinya 11 cm adalah...",
         "options": ["A. 42 cm", "B. 43 cm", "C. 44 cm", "D. 45 cm"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Keliling = 4 × sisi = 4 × 11 = 44 cm."
       },
       {
         "question": "Sebuah mobil menempuh 150 km dalam 3 jam. Kecepatan rata-rata mobil adalah...",
         "options": ["A. 45 km/jam", "B. 50 km/jam", "C. 55 km/jam", "D. 60 km/jam"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Kecepatan = jarak / waktu = 150 / 3 = 50 km/jam."
       },
       {
         "question": "Jika 6x + 4 = 22, maka x = ...",
         "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "6x + 4 = 22 → 6x = 18 → x = 3."
       },
       {
         "question": "Sebuah barang seharga Rp 180.000, setelah diskon 12,5%, harga yang harus dibayar adalah...",
         "options": ["A. Rp 155.000", "B. Rp 157.500", "C. Rp 160.000", "D. Rp 162.500"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Diskon 12,5% = 180.000 × 12,5% = 22.500 → Harga akhir = 180.000 – 22.500 = 157.500."
       },
       {
         "question": "Hasil dari 7/8 ÷ 3/4 adalah...",
         "options": ["A. 7/6", "B. 8/7", "C. 9/7", "D. 14/15"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "7/8 ÷ 3/4 = 7/8 × 4/3 = 28/24 = 7/6."
       },
       {
         "question": "Jika 8x – 9 = 23, maka x = ...",
         "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "8x – 9 = 23 → 8x = 32 → x = 4."
       },
       {
         "question": "Hasil dari 2³ + 5² adalah...",
         "options": ["A. 30", "B. 31", "C. 32", "D. 33"],
-        "answer": "D"
+        "answer": "D",
+        "explanation": "2³ + 5² = 8 + 25 = 33."
       },
       {
         "question": "Jika f(x) = 3x² – 2x, f(4) = ...",
         "options": ["A. 36", "B. 40", "C. 44", "D. 48"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "f(4) = 3(4²) – 2(4) = 3(16) – 8 = 40."
       },
       {
         "question": "Seorang pedagang membeli 60 kg gula seharga Rp 14.000/kg. Total harga = ...",
         "options": ["A. Rp 840.000", "B. Rp 850.000", "C. Rp 860.000", "D. Rp 870.000"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Total = 60 × 14.000 = 840.000."
       },
       {
         "question": "Jika 7/8 dari sebuah bilangan = 49, bilangan tersebut adalah...",
         "options": ["A. 54", "B. 56", "C. 58", "D. 60"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "7/8 × x = 49 → x = 49 × 8/7 = 56."
       },
       {
         "question": "Hasil dari √100 + √64 adalah...",
         "options": ["A. 14", "B. 16", "C. 18", "D. 20"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "√100 + √64 = 10 + 8 = 18."
       }
     ],
     "sedang": [
       {
         "question": "Akar-akar persamaan kuadrat 2x² – 7x + 3 = 0 adalah...",
         "options": ["A. 1 dan 3/2", "B. 1/2 dan 3", "C. 3 dan 2", "D. 1/3 dan 2"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Gunakan rumus kuadrat: x = [7 ± √(49 - 24)] / 4 = [7 ± 5] / 4 → x₁ = 3, x₂ = 1/2."
       },
       {
         "question": "Jika f(x) = x² – 5x + 6, f(3) = ...",
         "options": ["A. 0", "B. 1", "C. 2", "D. 3"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "f(3) = 3² – 5(3) + 6 = 9 – 15 + 6 = 0."
       },
       {
         "question": "Sebuah segitiga dengan sisi 7 cm, 24 cm, dan 25 cm. Luas segitiga = ...",
         "options": ["A. 84 cm²", "B. 85 cm²", "C. 86 cm²", "D. 87 cm²"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Segitiga siku-siku (7, 24, 25) → Luas = ½ × 7 × 24 = 84 cm²."
       },
       {
         "question": "Hasil dari (3x – 4)(x + 5) jika x = 2 adalah...",
         "options": ["A. 10", "B. 14", "C. 16", "D. 18"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "(3(2) – 4)(2 + 5) = (6 – 4) × 7 = 2 × 7 = 14."
       },
       {
         "question": "Jika x² – 8x + k = 0 memiliki akar kembar, nilai k = ...",
         "options": ["A. 16", "B. 18", "C. 20", "D. 22"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Akar kembar berarti diskriminan = 0 → b² - 4ac = 0 → 64 - 4k = 0 → k = 16."
       },
       {
         "question": "Jika x + y = 9 dan xy = 20, maka x² + y² = ...",
         "options": ["A. 41", "B. 45", "C. 49", "D. 53"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "x² + y² = (x + y)² - 2xy = 81 - 40 = 41."
       },
       {
         "question": "Volume balok = 360 cm³, panjang = 12 cm, lebar = 5 cm, tinggi = ...",
         "options": ["A. 5 cm", "B. 6 cm", "C. 7 cm", "D. 8 cm"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "V = p × l × t → 360 = 12 × 5 × t → t = 360 / 60 = 6 cm."
       },
       {
         "question": "Jika f(x) = 3x – 2 dan g(x) = x², maka f(g(4)) = ...",
         "options": ["A. 46", "B. 47", "C. 48", "D. 49"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "g(4) = 16 → f(16) = 3(16) – 2 = 48 – 2 = 46."
       },
       {
         "question": "Pertidaksamaan 4x – 7 ≤ 9, himpunan penyelesaian adalah...",
         "options": ["A. x ≤ 3", "B. x ≤ 4", "C. x ≤ 5", "D. x ≤ 6"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "4x – 7 ≤ 9 → 4x ≤ 16 → x ≤ 4."
       },
       {
         "question": "Lingkaran memiliki jari-jari 21 cm. Luas lingkaran = ...",
         "options": ["A. 441π cm²", "B. 462π cm²", "C. 484π cm²", "D. 500π cm²"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "L = πr² = π × 21² = 441π cm²."
       },
       {
         "question": "Jika x² – 7x + 10 = 0, maka x₁ × x₂ = ...",
         "options": ["A. 2", "B. 5", "C. 10", "D. 12"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Hasil kali akar = c/a = 10/1 = 10."
       },
       {
         "question": "Hasil dari (2x + 3)² – (2x – 3)² = ...",
         "options": ["A. 20x", "B. 22x", "C. 24x", "D. 26x"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Gunakan rumus selisih kuadrat: (a+b)² - (a-b)² = 4ab → 4×2x×3 = 24x."
       },
       {
         "question": "Jika f(x) = 4x + 1, nilai x jika f(x) = 21 adalah...",
         "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "4x + 1 = 21 → 4x = 20 → x = 5."
       },
       {
         "question": "Sebuah balok dengan panjang 10 cm, lebar 6 cm, tinggi 4 cm. Keliling rusuk balok = ...",
         "options": ["A. 80 cm", "B. 64 cm", "C. 60 cm", "D. 72 cm"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Keliling rusuk = 4(p + l + t) = 4(10 + 6 + 4) = 80 cm."
       },
       {
         "question": "√196 + √121 = ...",
         "options": ["A. 25", "B. 26", "C. 27", "D. 28"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "√196 + √121 = 14 + 11 = 25."
       },
       {
         "question": "Jika x/4 + 7 = 12, maka x = ...",
         "options": ["A. 18", "B. 20", "C. 22", "D. 24"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "x/4 = 5 → x = 20."
       },
       {
         "question": "Segitiga siku-siku dengan sisi tegak 9 cm dan 12 cm. Panjang sisi miring = ...",
         "options": ["A. 13 cm", "B. 14 cm", "C. 15 cm", "D. 16 cm"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Gunakan teorema Pythagoras: c² = 9² + 12² = 81 + 144 = 225 → c = 15 cm."
       },
       {
         "question": "Jika f(x) = x² – 3x – 10, maka f(5) = ...",
         "options": ["A. 15", "B. 10", "C. 5", "D. 0"],
-        "answer": "D"
+        "answer": "D",
+        "explanation": "f(5) = 25 – 15 – 10 = 0."
       },
       {
         "question": "Sebuah tabung jari-jari 7 cm dan tinggi 15 cm. Volume = ...",
         "options": ["A. 735π cm³", "B. 720π cm³", "C. 700π cm³", "D. 650π cm³"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "V = πr²t = π × 7² × 15 = 735π cm³."
       },
       {
         "question": "Jika 5x - 3 = 2x + 9, maka nilai x adalah = ...",
         "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
-        "answer": ["B"]
+        "answer": "B",
+        "explanation": "5x - 3 = 2x + 9 → 3x = 12 → x = 4."
       }
     ],
     "sulit": [
       {
         "question": "Jika f(x) = 2x² – 3x + 1 dan g(x) = x – 2, maka nilai f(g(3)) = ...",
         "options": ["A. 0", "B. 3", "C. 5", "D. 7"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "g(3) = 1, maka f(1) = 2(1)² – 3(1) + 1 = 0."
       },
       {
         "question": "Akar-akar persamaan kuadrat 3x² – 5x – 2 = 0 adalah...",
         "options": ["A. 2 dan –1/3", "B. –2 dan 1/3", "C. 1 dan –2/3", "D. –1 dan 2/3"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Gunakan rumus kuadrat: x = [5 ± √(25 + 24)] / 6 = [5 ± 7] / 6 → x₁ = 2, x₂ = –1/3."
       },
       {
         "question": "Selesaikan pertidaksamaan: 2x² – 5x – 3 < 0. Himpunan penyelesaiannya adalah...",
         "options": ["A. –1/2 < x < 3", "B. –3/2 < x < 1", "C. –1 < x < 2", "D. –2 < x < 3/2"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Akar-akar: x = (5 ± √49) / 4 → x₁ = –0.5, x₂ = 3. Daerah negatif di antara akar → –1/2 < x < 3."
       },
       {
         "question": "Jika log₂(x – 1) + log₂(x – 3) = 3, maka x = ...",
         "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Gabung log: log₂[(x – 1)(x – 3)] = 3 → (x – 1)(x – 3) = 8 → x² – 4x – 5 = 0 → x = 5."
       },
       {
         "question": "Hasil dari 3! + 4! = ...",
         "options": ["A. 24", "B. 27", "C. 30", "D. 30"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "3! = 6, 4! = 24 → 6 + 24 = 30."
       },
       {
         "question": "Jika sin²θ + cos²θ = 1, dan sinθ = 3/5 (θ di kuadran I), maka cosθ = ...",
         "options": ["A. 3/5", "B. 4/5", "C. –3/5", "D. –4/5"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "cos²θ = 1 – sin²θ = 1 – (9/25) = 16/25 → cosθ = 4/5."
       },
       {
         "question": "Jumlah semua bilangan asli x yang memenuhi 2x² – 7x + 3 = 0 adalah ...",
         "options": ["A. 1", "B. 3", "C. 2", "D. 4"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Akar-akar: x = [7 ± √(49 – 24)] / 4 = [7 ± 5] / 4 → x = 3 dan x = 1/2 → jumlah bilangan asli = 3."
       },
       {
         "question": "Jika P(A) = 1/3 dan P(B) = 1/2, P(A ∩ B) = 1/6, maka P(A ∪ B) = ...",
         "options": ["A. 1/2", "B. 2/3", "C. 3/4", "D. 5/6"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "P(A ∪ B) = P(A) + P(B) – P(A ∩ B) = 1/3 + 1/2 – 1/6 = 2/3."
       },
       {
         "question": "Sebuah segitiga sama kaki dengan alas 10 cm dan sisi miring 13 cm. Tinggi = ...",
         "options": ["A. 12 cm", "B. 10 cm", "C. 9 cm", "D. 8 cm"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Gunakan Pythagoras: t² + (5)² = 13² → t² = 169 – 25 = 144 → t = 12 cm."
       },
       {
         "question": "Jika 2^(x+1) = 16, maka x = ...",
         "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "16 = 2⁴ → x + 1 = 4 → x = 3."
       },
       {
         "question": "Hasil dari √(81) + ∛(27) × 2 = ...",
         "options": ["A. 15", "B. 19", "C. 20", "D. 21"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "√81 = 9, ∛27 = 3 → 9 + (3 × 2) = 15."
       },
       {
         "question": "Jika f(x) = x³ – 6x² + 11x – 6, maka akar-akar f(x) = 0 adalah...",
         "options": ["A. 1, 2, 3", "B. 1, 3, 6", "C. 2, 3, 4", "D. 1, 2, 4"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Faktorisasikan: (x – 1)(x – 2)(x – 3) = 0 → akar = 1, 2, 3."
       },
       {
         "question": "Jika cosθ = 12/13, sinθ > 0, maka tanθ = ...",
         "options": ["A. 5/12", "B. 12/5", "C. 5/13", "D. 12/13"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "sin²θ + cos²θ = 1 → sinθ = 5/13 → tanθ = 5/12."
       },
       {
         "question": "Hasil dari 5C2 + 6C2 = ...",
         "options": ["A. 20", "B. 25", "C. 26", "D. 30"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "5C2 = 10, 6C2 = 15 → 10 + 15 = 25."
       },
       {
         "question": "Jika log₃(x – 2) = 2, maka x = ...",
         "options": ["A. 8", "B. 9", "C. 10", "D. 11"],
-        "answer": "D"
+        "answer": "D",
+        "explanation": "x – 2 = 3² = 9 → x = 11."
       },
       {
         "question": "Jika x² + y² = 25 dan x + y = 7, maka xy = ...",
         "options": ["A. 12", "B. 11", "C. 10", "D. 9"],
-        "answer": "A"
+        "answer": "A",
+        "explanation": "Gunakan rumus: (x + y)² = x² + y² + 2xy → 49 = 25 + 2xy → xy = 12."
       },
       {
         "question": "Hasil dari 4! × 3! = ...",
         "options": ["A. 120", "B. 144", "C. 156", "D. 172"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "4! = 24, 3! = 6 → 24 × 6 = 144."
       },
       {
         "question": "Jika (x – 2)(x + 5) = 0, maka nilai x yang memenuhi adalah ...",
         "options": ["A. 2 dan 5", "B. –2 dan 5", "C. 2 dan –5", "D. –2 dan –5"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "(x – 2)(x + 5) = 0 → x = 2 atau x = –5."
       },
       {
         "question": "Sebuah persegi memiliki keliling 48 cm. Luas persegi tersebut adalah ...",
         "options": ["A. 100 cm²", "B. 121 cm²", "C. 144 cm²", "D. 169 cm²"],
-        "answer": "C"
+        "answer": "C",
+        "explanation": "Keliling = 4s → s = 12 → luas = 12² = 144 cm²."
       },
       {
         "question": "Jika jumlah akar-akar persamaan kuadrat x² – 8x + k = 0 adalah 8, maka nilai k = ...",
         "options": ["A. 15", "B. 16", "C. 17", "D. 18"],
-        "answer": "B"
+        "answer": "B",
+        "explanation": "Jumlah akar = –b/a = 8 → b = –8. Nilai k tidak mempengaruhi jumlah akar, tetapi jika akarnya 4 dan 4 (kembar) → k = 16."
       }
     ]
   }

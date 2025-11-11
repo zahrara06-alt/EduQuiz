@@ -2,12 +2,23 @@ import json
 import random
 import os
 
-# Baca file JSON berisi soal
+#baca file JSON berisi soal
 def load_quiz_data(filename="latihan_soall.json"):
     with open(filename, "r", encoding="utf-8") as file:
         return json.load(file)
 
-# Fungsi utama untuk menjalankan kuis
+#input jawaban dengan validasi
+def get_valid_answer():
+    while True:
+        answer = input("Jawaban kamu (A/B/C/D atau STOP untuk keluar): ").strip().upper()
+        if answer == "STOP":
+            return "STOP"
+        if len(answer) != 1 or answer not in ["A", "B", "C", "D"]:
+            print("⚠️ Masukkan hanya satu huruf: A, B, C, D, atau STOP untuk berhenti.")
+        else:
+            return answer
+
+#jalankan kuis
 def run_quiz(quiz):
     score = 0
     total = len(quiz)
@@ -18,25 +29,35 @@ def run_quiz(quiz):
         for option in q["options"]:
             print(option)
 
-        answer = input("Jawaban kamu (A/B/C/D): ").strip().upper()
+        answer = get_valid_answer()
+
+        #user ingin berhenti
+        if answer == "STOP":
+            print("\n⛔ Kuis dihentikan oleh pengguna.")
+            break
+
         if answer == q["answer"]:
             print("✅ Benar!")
             score += 1
         else:
             print(f"❌ Salah. Jawaban yang benar adalah {q['answer']}")
 
-    print(f"\n🎯 Skor akhir kamu: {score}/{total}")
-    print(f"Persentase benar: {score/total*100:.1f}%")
+        #tampilkan pembahasan
+        if "explanation" in q and q["explanation"]:
+            print(f"🧾 Pembahasan: {q['explanation']}")
 
-# Menu utama
-def main():
+    print(f"\nSkor akhir kamu: {score}/{i if answer == 'STOP' else total}")
+    print(f"Persentase benar: {score / (i if answer == 'STOP' else total) * 100:.1f}%")
+
+#menu utama
+def latsol():
     os.system("cls" if os.name == "nt" else "clear")
-    print("=== QUIZ SAINS TKA ===")
+    print("=== PILIH MATA PELAJARAN ===")
     print("1. Fisika")
     print("2. Kimia")
     print("3. Biologi")
     print("4. Matematika Wajib")
-    pilihan_mapel = input("Pilih mata pelajaran (1/2): ").strip()
+    pilihan_mapel = input("Pilih mata pelajaran (1/2/3/4): ").strip()
 
     if pilihan_mapel == "1":
         subject = "fisika"
@@ -71,8 +92,8 @@ def main():
         print("Data soal tidak ditemukan.")
         return
 
-    print(f"\nMulai kuis {subject.capitalize()} ({level.capitalize()}) 🔥\n")
+    print(f"\nMulai Latihan Soal {subject.capitalize()} ({level.capitalize()})")
     run_quiz(data[subject][level])
 
 if __name__ == "__main__":
-    main()
+    latsol()
